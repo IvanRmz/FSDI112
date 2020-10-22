@@ -25,7 +25,7 @@ SECRET_KEY = '#(8cpyv&f*40%7+fw!4fl!pwa!leguxia@e3hzudifi$9pzzgz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 #Static root
 STATIC_ROOT = BASE_DIR
